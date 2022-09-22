@@ -9,7 +9,9 @@
   <summary>Reverse Polish Notation CLI calculator</summary>
     <description>
     <p>
-    rpn is a math functional language using reverse (postfix) polish notation
+    rpn is a math functional language using reverse (postfix) polish notation.
+  
+    You can run it as a cli with `flatpak run fr.rubet.rpn`
     </p>
   </description>
   <url type="homepage">https://github.com/louisrubet/rpn</url>
@@ -17,12 +19,12 @@
     <control>keyboard</control>
   </requires>
   <releases>
-    <release version="2.4.2" date="2022-03-03">
+    <release version="2.5" date="2022-09-10">
     </release>
   </releases>
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/louisrubet/rpn/releases/download/v2.4.1/Screenshot.from.2022-03-02.16-56-22.png</image>
+      <image>https://github.com/louisrubet/rpn/releases/download/v2.5/rpn-v2.5.png</image>
     </screenshot>
   </screenshots>
 </component>

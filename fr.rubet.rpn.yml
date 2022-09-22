@@ -21,12 +21,12 @@ modules:
   - name: rpn
     buildsystem: cmake-ninja
     config-opts:
-      - -DRPN_VERSION=v2.4.2
+      - -DRPN_VERSION=v2.5
     sources:
       - type: git
         url: https://github.com/louisrubet/rpn.git
-        tag: v2.4.2
-        commit: cd16651dd1c3f634fe9438d24b4a63c0c825ca06
+        tag: v2.5
+        commit: c4bad49c592e3d0d8d1b9d045a15fba272fe9d54
       - type: file
         path: fr.rubet.rpn.appdata.xml
       - type: file
