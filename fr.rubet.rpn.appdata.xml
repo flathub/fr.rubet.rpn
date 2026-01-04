@@ -8,11 +8,7 @@
   <name>rpn</name>
   <summary>Reverse Polish Notation CLI calculator</summary>
     <description>
-    <p>
-    rpn is a math functional language using reverse (postfix) polish notation.
-  
-    You can run it as a cli with `flatpak run fr.rubet.rpn`
-    </p>
+    <p>rpn is a math functional language using reverse (postfix) polish notation. You can run it as a cli with `flatpak run fr.rubet.rpn`</p>
   </description>
   <launchable type="desktop-id">fr.rubet.rpn.desktop</launchable>
   <developer id="fr.rubet">
@@ -24,6 +20,9 @@
   <recommends>
     <control>keyboard</control>
   </recommends>
+  <provides>
+    <binary>rpn</binary>
+  </provides>
   <releases>
     <release version="2.5" date="2022-09-10">
     </release>
