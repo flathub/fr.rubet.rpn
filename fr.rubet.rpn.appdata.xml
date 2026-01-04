@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2022 [name] -->
-<component type="desktop-application">
+<component type="console-application">
   <id>fr.rubet.rpn</id>
   <content_rating type="oars-1.0" />
   <metadata_license>FSFAP</metadata_license>
