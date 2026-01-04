@@ -14,10 +14,16 @@
     You can run it as a cli with `flatpak run fr.rubet.rpn`
     </p>
   </description>
+  <launchable type="desktop-id">fr.rubet.rpn.desktop</launchable>
+  <developer id="fr.rubet">
+    <name>Louis Rubet </name>
+  </developer>
   <url type="homepage">https://github.com/louisrubet/rpn</url>
-  <requires>
+  <url type="bugtracker">https://github.com/louisrubet/rpn/issues</url>
+  <url type="vcs-browser">https://github.com/louisrubet/rpn</url>
+  <recommends>
     <control>keyboard</control>
-  </requires>
+  </recommends>
   <releases>
     <release version="2.5" date="2022-09-10">
     </release>

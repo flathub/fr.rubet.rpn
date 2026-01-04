@@ -3,7 +3,11 @@ runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: rpn
-finish-args: [ ]
+finish-args:
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --share=ipc
 modules:
   - name: mpfr
     config-opts:
@@ -19,6 +23,7 @@ modules:
           - autoreconf -vfi;
     post-install:
       - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/mpfr/";
+
   - name: rpn
     buildsystem: cmake-ninja
     config-opts:
