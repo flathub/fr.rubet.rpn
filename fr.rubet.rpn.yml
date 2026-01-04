@@ -1,6 +1,6 @@
 app-id: fr.rubet.rpn
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: rpn
 finish-args: [ ]
