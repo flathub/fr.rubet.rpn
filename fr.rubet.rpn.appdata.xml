@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2022 [name] -->
-<component type="desktop-application">
+<component type="console-application">
   <id>fr.rubet.rpn</id>
   <content_rating type="oars-1.0" />
   <metadata_license>FSFAP</metadata_license>
@@ -8,16 +8,21 @@
   <name>rpn</name>
   <summary>Reverse Polish Notation CLI calculator</summary>
     <description>
-    <p>
-    rpn is a math functional language using reverse (postfix) polish notation.
-  
-    You can run it as a cli with `flatpak run fr.rubet.rpn`
-    </p>
+    <p>rpn is a math functional language using reverse (postfix) polish notation. You can run it as a cli with `flatpak run fr.rubet.rpn`</p>
   </description>
+  <launchable type="desktop-id">fr.rubet.rpn.desktop</launchable>
+  <developer id="fr.rubet">
+    <name>Louis Rubet </name>
+  </developer>
   <url type="homepage">https://github.com/louisrubet/rpn</url>
-  <requires>
+  <url type="bugtracker">https://github.com/louisrubet/rpn/issues</url>
+  <url type="vcs-browser">https://github.com/louisrubet/rpn</url>
+  <recommends>
     <control>keyboard</control>
-  </requires>
+  </recommends>
+  <provides>
+    <binary>rpn</binary>
+  </provides>
   <releases>
     <release version="2.5" date="2022-09-10">
     </release>
